@@ -1,5 +1,4 @@
 /*! tailwindcss v4.0.4 | MIT License | https://tailwindcss.com */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -696,41 +695,11 @@
       max-width: 96rem !important;
     }
   }
-  .mt-\[0px\] {
-    margin-top: 0px;
-  }
-  .mt-\[20px\] {
-    margin-top: 20px;
+  .mt-\[10px\] {
+    margin-top: 10px;
   }
   .mt-\[30px\] {
     margin-top: 30px;
-  }
-  .mt-\[40px\] {
-    margin-top: 40px;
-  }
-  .mt-\[50px\] {
-    margin-top: 50px;
-  }
-  .ml-3 {
-    margin-left: calc(var(--spacing) * 3);
-  }
-  .ml-30 {
-    margin-left: calc(var(--spacing) * 30);
-  }
-  .ml-\[5px\] {
-    margin-left: 5px;
-  }
-  .ml-\[35\] {
-    margin-left: 35;
-  }
-  .ml-\[35p\] {
-    margin-left: 35p;
-  }
-  .ml-\[35px\] {
-    margin-left: 35px;
-  }
-  .ml-\[3\] {
-    margin-left: 3;
   }
   .ml-\[45px\] {
     margin-left: 45px;
@@ -822,26 +791,8 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
-  .h-\[159\] {
-    height: 159;
-  }
-  .h-\[159p\] {
-    height: 159p;
-  }
-  .h-\[159px\] {
-    height: 159px;
-  }
-  .h-\[15\] {
-    height: 15;
-  }
-  .h-\[1\] {
-    height: 1;
-  }
   .h-\[50px\] {
     height: 50px;
-  }
-  .h-auto {
-    height: auto;
   }
   .h-screen {
     height: 100vh;
@@ -855,65 +806,11 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
-  .w-9 {
-    width: calc(var(--spacing) * 9);
-  }
-  .w-\[12px\] {
-    width: 12px;
-  }
-  .w-\[1px\] {
-    width: 1px;
-  }
-  .w-\[900\] {
-    width: 900;
-  }
-  .w-\[900p\] {
-    width: 900p;
-  }
-  .w-\[900px\] {
-    width: 900px;
-  }
-  .w-\[90\] {
-    width: 90;
-  }
-  .w-\[90px\] {
-    width: 90px;
-  }
-  .w-\[9\] {
-    width: 9;
-  }
-  .w-\[9px\] {
-    width: 9px;
-  }
-  .w-\[150\] {
-    width: 150;
-  }
-  .w-\[150p\] {
-    width: 150p;
-  }
-  .w-\[150px\] {
-    width: 150px;
-  }
-  .w-\[15\] {
-    width: 15;
-  }
   .w-\[1200px\] {
     width: 1200px;
-  }
-  .w-\[120px\] {
-    width: 120px;
-  }
-  .w-\[1\] {
-    width: 1;
-  }
-  .w-\[px\] {
-    width: px;
   }
   .w-auto {
     width: auto;
@@ -1550,9 +1447,6 @@
   .bg-\[\#1E1E1E\] {
     background-color: #1E1E1E;
   }
-  .bg-\[\#\] {
-    background-color: #;
-  }
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
   }
@@ -1734,15 +1628,6 @@
   .object-top {
     object-position: top;
   }
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
-  }
-  .p-3 {
-    padding: calc(var(--spacing) * 3);
-  }
-  .p-5 {
-    padding: calc(var(--spacing) * 5);
-  }
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
@@ -1791,42 +1676,17 @@
   .align-top {
     vertical-align: top;
   }
-  .font-\[\#FCBA03\] {
-    font-family: #FCBA03;
-  }
-  .font-\[\#\] {
-    font-family: #;
-  }
-  .font-mono {
-    font-family: var(--font-mono);
-  }
   .font-sans {
     font-family: var(--font-sans);
-  }
-  .text-\[40px\] {
-    font-size: 40px;
-  }
-  .text-\[4px\] {
-    font-size: 4px;
-  }
-  .text-\[5px\] {
-    font-size: 5px;
-  }
-  .text-\[70px\] {
-    font-size: 70px;
-  }
-  .text-\[7px\] {
-    font-size: 7px;
   }
   .text-\[50px\] {
     font-size: 50px;
   }
+  .text-\[70px\] {
+    font-size: 70px;
+  }
   .text-\[77px\] {
     font-size: 77px;
-  }
-  .leading-2 {
-    --tw-leading: calc(var(--spacing) * 2);
-    line-height: calc(var(--spacing) * 2);
   }
   .leading-none {
     --tw-leading: 1;
@@ -1913,35 +1773,11 @@
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
   }
-  .text-\[\#F\*\] {
-    color: #F*;
-  }
   .text-\[\#F8F8F8\] {
     color: #F8F8F8;
   }
-  .text-\[\#F8\] {
-    color: #F8;
-  }
   .text-\[\#FCBA03\] {
     color: #FCBA03;
-  }
-  .text-\[\#F\] {
-    color: #F;
-  }
-  .text-\[\#\] {
-    color: #;
-  }
-  .text-\[\#f\] {
-    color: #f;
-  }
-  .text-\[70\] {
-    color: 70;
-  }
-  .text-\[7\] {
-    color: 7;
-  }
-  .text-\[px\] {
-    color: px;
   }
   .capitalize {
     text-transform: capitalize;
@@ -2387,7 +2223,6 @@
     transform-box: view-box;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 .font-indie {
   font-family: 'Indie Flower', cursive;
 }
